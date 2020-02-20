@@ -4,10 +4,11 @@ npm run serve
 
 
 API
+roots
 
-localhost:port//api/message/list/id
+/api/message/list/id
 
-localhost:port//api/message/singl/id
+/api/message/singl/id
 
-localhost:port/api/message/creare
+/api/message/creare
 {body:{email:"email@gmail.com",text:"text message"}}
