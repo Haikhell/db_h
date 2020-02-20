@@ -8,7 +8,7 @@ router.get('/list/:id', async (req, res) => {
   res.send(list);
 });
 
-router.get('/message/:id', async (req, res) => {
+router.get('/singl/:id', async (req, res) => {
   const messages = await message.getById(req.params.id);
   res.send(messages);
 });
