@@ -13,5 +13,5 @@ const config = require('./src/config');
 
   const httpServer = http.createServer(app);
 
-  httpServer.listen(config.PORT, config.HOST);
+  httpServer.listen(config.PORT);
 })();
