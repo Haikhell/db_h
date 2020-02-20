@@ -5,8 +5,7 @@
     "node": "10.13.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "create-folders": "node scripts/npm/create-folders.js logs tmp files/avatar files/img files/video"
+    "start": "node server.js"
   },
   "dependencies": {
     "@hapi/joi": "15.1.0",
